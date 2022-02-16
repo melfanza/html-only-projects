@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Become The Next Developer!</title>
+</head>
+
+<body style="margin: 0 auto; text-align: center;">
+  <header>
+    <h1>Become The Next Developer!</h1>
+  </header>
+
+  <main>
+    <form>
+      <table cellpadding="10" style="margin: auto; text-align: left;">
+        <tr>
+          <td><label for="firstName">First Name</label></td>
+          <td><input type="text" id="firstName" name="firstName" placeholder="John" required></td>
+        </tr>
+
+        <td><label for="lastName">Last Name</label></td>
+        <td><input type="text" id="lastName" name="lastName" placeholder="Doe" required></td>
+        </tr>
+
+        <tr>
+          <td><label for="email">Email</label></td>
+          <td><input type="email" id="email" name="email" placeholder="example@something.com" required></td>
+        </tr>
+
+        <tr>
+          <td><label for="profession">Profession</label></td>
+          <td>
+            <input type="radio" id="profession" name="profession" checked> Student
+            <input type="radio" id="profession" name="profession"> Teacher
+            <input type="radio" id="profession" name="profession"> Other
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="roadmap">Choose your roadmap</label></td>
+          <td>
+            <input type="radio" id="roadmap" name="roadmap" checked> Frontend
+            <input type="radio" id="roadmap" name="roadmap"> Backend
+            <input type="radio" id="roadmap" name="roadmap"> Fullstack
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="hobbies">Tell me your hobbies</label></td>
+          <td>
+            <input type="checkbox" id="hobbies" name="hobbies" checked> Coding
+            <input type="checkbox" id="hobbies" name="hobbies"> Design
+            <input type="checkbox" id="hobbies" name="hobbies"> Reading
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="resources">What learning resources did you use?</label></td>
+          <td>
+            <select id="resources" name="resources">
+              <option value="udemy">Udemy</option>
+              <option value="youtube">Youtube</option>
+              <option value="google">Google</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="messages">Any other messages did you want to add?</label></td>
+          <td><textarea name="messages" id="messages" cols="30" rows="5" style="resize: none;"
+              placeholder="enter your message"></textarea></td>
+        </tr>
+
+        <tr>
+          <td colspan="3" align="center"><button type="submit">Submit</button></td>
+        </tr>
+      </table>
+    </form>
+
+    <footer>
+      <p>&copy; copyright 2022 <strong>elfanthedev</strong>.</p>
+    </footer>
+  </main>
+</body>
+
+</html>
